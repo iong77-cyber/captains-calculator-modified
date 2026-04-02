@@ -3135,27 +3135,27 @@
             ]
         }
     },
-    "enriched_uranium_20": {
-        "id": "enriched_uranium_20",
+    "enriched_uranium_20%": {
+        "id": "enriched_uranium_20%",
         "name": "Enriched Uranium (20%)",
         "icon": "EnrichedUranium20%.png",
         "recipes": {
             "input": [
                 "compact_reactor_assembly",
                 "core_fuel_production",
-                "enriched_uranium_20_storage",
-                "enriched_uranium_20_storage_2",
-                "enriched_uranium_20_storage_3",
-                "enriched_uranium_20_storage_4",
-                "enriched_uranium_20_storage_5"
+                "enriched_uranium_20%_storage",
+                "enriched_uranium_20%_storage_2",
+                "enriched_uranium_20%_storage_3",
+                "enriched_uranium_20%_storage_4",
+                "enriched_uranium_20%_storage_5"
             ],
             "output": [
                 "blanket_fuel_reprocessing_into_u20",
-                "enriched_uranium_20_storage",
-                "enriched_uranium_20_storage_2",
-                "enriched_uranium_20_storage_3",
-                "enriched_uranium_20_storage_4",
-                "enriched_uranium_20_storage_5",
+                "enriched_uranium_20%_storage",
+                "enriched_uranium_20%_storage_2",
+                "enriched_uranium_20%_storage_3",
+                "enriched_uranium_20%_storage_4",
+                "enriched_uranium_20%_storage_5",
                 "uranium_enriched_t1",
                 "uranium_enrichment_3"
             ]
@@ -3181,17 +3181,17 @@
             ]
         }
     },
-    "enriched_uranium_4": {
-        "id": "enriched_uranium_4",
+    "enriched_uranium_4%": {
+        "id": "enriched_uranium_4%",
         "name": "Enriched Uranium (4%)",
         "icon": "EnrichedUranium4%.png",
         "recipes": {
             "input": [
-                "enriched_uranium_4_storage",
-                "enriched_uranium_4_storage_2",
-                "enriched_uranium_4_storage_3",
-                "enriched_uranium_4_storage_4",
-                "enriched_uranium_4_storage_5",
+                "enriched_uranium_4%_storage",
+                "enriched_uranium_4%_storage_2",
+                "enriched_uranium_4%_storage_3",
+                "enriched_uranium_4%_storage_4",
+                "enriched_uranium_4%_storage_5",
                 "uranium_enriched_t1",
                 "uranium_enrichment_3",
                 "uranium_rods_t1",
@@ -3199,11 +3199,11 @@
                 "uranium_rods_t3"
             ],
             "output": [
-                "enriched_uranium_4_storage",
-                "enriched_uranium_4_storage_2",
-                "enriched_uranium_4_storage_3",
-                "enriched_uranium_4_storage_4",
-                "enriched_uranium_4_storage_5",
+                "enriched_uranium_4%_storage",
+                "enriched_uranium_4%_storage_2",
+                "enriched_uranium_4%_storage_3",
+                "enriched_uranium_4%_storage_4",
+                "enriched_uranium_4%_storage_5",
                 "uranium_enrichment",
                 "uranium_enrichment_2"
             ]
@@ -4497,6 +4497,31 @@
                 "loose_storage_ii",
                 "loose_storage_iii",
                 "loose_storage_iv"
+            ]
+        }
+    },
+    "heat": {
+        "id": "heat",
+        "name": "Heat",
+        "icon": "Heat.png",
+        "recipes": {
+            "input": [
+                "thermal_storage_1",
+                "thermal_storage_3",
+                "thermal_storage_5"
+            ],
+            "output": [
+                "thermal_storage",
+                "thermal_storage_2",
+                "thermal_storage_4"
+            ]
+        },
+        "machines": {
+            "input": [
+                "thermal_storage"
+            ],
+            "output": [
+                "thermal_storage"
             ]
         }
     },
@@ -7668,25 +7693,25 @@
             ]
         }
     },
-    "reprocessed_uranium_1": {
-        "id": "reprocessed_uranium_1",
+    "reprocessed_uranium_1%": {
+        "id": "reprocessed_uranium_1%",
         "name": "Reprocessed Uranium (1%)",
         "icon": "ReprocessedUranium1%.png",
         "recipes": {
             "input": [
-                "reprocessed_uranium_1_storage",
-                "reprocessed_uranium_1_storage_2",
-                "reprocessed_uranium_1_storage_3",
-                "reprocessed_uranium_1_storage_4",
-                "reprocessed_uranium_1_storage_5",
+                "reprocessed_uranium_1%_storage",
+                "reprocessed_uranium_1%_storage_2",
+                "reprocessed_uranium_1%_storage_3",
+                "reprocessed_uranium_1%_storage_4",
+                "reprocessed_uranium_1%_storage_5",
                 "uranium_enrichment_2"
             ],
             "output": [
-                "reprocessed_uranium_1_storage",
-                "reprocessed_uranium_1_storage_2",
-                "reprocessed_uranium_1_storage_3",
-                "reprocessed_uranium_1_storage_4",
-                "reprocessed_uranium_1_storage_5",
+                "reprocessed_uranium_1%_storage",
+                "reprocessed_uranium_1%_storage_2",
+                "reprocessed_uranium_1%_storage_3",
+                "reprocessed_uranium_1%_storage_4",
+                "reprocessed_uranium_1%_storage_5",
                 "spent_fuel_reprocessing"
             ]
         },
@@ -8932,6 +8957,7 @@
                 "steam_high_storage_3",
                 "steam_high_storage_4",
                 "thermal_desalination_2",
+                "thermal_storage_2",
                 "titanium_purification",
                 "turbinehighpress",
                 "turbinehighpresst2"
@@ -8965,6 +8991,7 @@
                 "steam_high_storage_2",
                 "steam_high_storage_3",
                 "steam_high_storage_4",
+                "thermal_storage_3",
                 "turbinesuperpress",
                 "waste_incineration",
                 "waste_incineration_2",
@@ -8992,7 +9019,8 @@
                 "smoke_stack",
                 "smoke_stack_large",
                 "sour_water_stripper",
-                "thermal_desalinator"
+                "thermal_desalinator",
+                "thermal_storage"
             ],
             "output": [
                 "boiler",
@@ -9005,7 +9033,8 @@
                 "incineration_plant",
                 "nuclear_reactor",
                 "nuclear_reactor_ii",
-                "super-pressure_turbine"
+                "super-pressure_turbine",
+                "thermal_storage"
             ]
         }
     },
@@ -9024,6 +9053,7 @@
                 "steam_low_storage_3",
                 "steam_low_storage_4",
                 "thermal_desalination_3",
+                "thermal_storage",
                 "turbinelowpress",
                 "turbinelowpresst2"
             ],
@@ -9043,6 +9073,7 @@
                 "steam_low_storage_2",
                 "steam_low_storage_3",
                 "steam_low_storage_4",
+                "thermal_storage_1",
                 "titanium_smelting_arc_ii",
                 "turbinehighpress",
                 "turbinehighpresst2"
@@ -9060,7 +9091,8 @@
                 "low-pressure_turbine_ii",
                 "smoke_stack",
                 "smoke_stack_large",
-                "thermal_desalinator"
+                "thermal_desalinator",
+                "thermal_storage"
             ],
             "output": [
                 "arc_furnace_ii",
@@ -9070,7 +9102,8 @@
                 "fluid_storage_iii",
                 "fluid_storage_iv",
                 "high-pressure_turbine",
-                "high-pressure_turbine_ii"
+                "high-pressure_turbine_ii",
+                "thermal_storage"
             ]
         }
     },
@@ -9089,6 +9122,7 @@
                 "steam_super_storage_4",
                 "super-press_steam_condensation",
                 "thermal_desalination",
+                "thermal_storage_4",
                 "turbinesuperpress"
             ],
             "output": [
@@ -9108,7 +9142,8 @@
                 "steam_super_storage",
                 "steam_super_storage_2",
                 "steam_super_storage_3",
-                "steam_super_storage_4"
+                "steam_super_storage_4",
+                "thermal_storage_5"
             ]
         },
         "machines": {
@@ -9122,7 +9157,8 @@
                 "smoke_stack",
                 "smoke_stack_large",
                 "super-pressure_turbine",
-                "thermal_desalinator"
+                "thermal_desalinator",
+                "thermal_storage"
             ],
             "output": [
                 "boiler_electric",
@@ -9130,7 +9166,8 @@
                 "fluid_storage",
                 "fluid_storage_ii",
                 "fluid_storage_iii",
-                "fluid_storage_iv"
+                "fluid_storage_iv",
+                "thermal_storage"
             ]
         }
     },
@@ -10382,6 +10419,9 @@
                 "sugar_cane_fertilizer_organic",
                 "sugar_cane_fertilizer_organic_2",
                 "sugar_refining_cane",
+                "thermal_storage_1",
+                "thermal_storage_3",
+                "thermal_storage_5",
                 "titanium_casting_cooled",
                 "titanium_smelting_arc_ii",
                 "tofu_making",
@@ -10443,6 +10483,9 @@
                 "thermal_desalination_2",
                 "thermal_desalination_3",
                 "thermal_desalination_4",
+                "thermal_storage",
+                "thermal_storage_2",
+                "thermal_storage_4",
                 "toxic_slurry_treatment",
                 "water_desalination_basic",
                 "water_pumping",
@@ -10492,6 +10535,7 @@
                 "mixer_ii",
                 "nuclear_reactor",
                 "nuclear_reactor_ii",
+                "thermal_storage",
                 "water_chiller"
             ],
             "output": [
@@ -10509,6 +10553,7 @@
                 "rainwater_harvester",
                 "sour_water_stripper",
                 "thermal_desalinator",
+                "thermal_storage",
                 "wastewater_treatment"
             ]
         }

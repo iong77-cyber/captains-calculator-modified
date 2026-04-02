@@ -2152,7 +2152,7 @@
                 "quantity": 12
             },
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 2
             }
@@ -4256,7 +4256,7 @@
                 "quantity": 6
             },
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 2
             }
@@ -7115,7 +7115,7 @@
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 2
             },
@@ -10636,201 +10636,201 @@
             }
         ]
     },
-    "enriched_uranium_20_storage": {
-        "id": "enriched_uranium_20_storage",
+    "enriched_uranium_20%_storage": {
+        "id": "enriched_uranium_20%_storage",
         "name": "Enriched Uranium (20%) Storage",
         "machine": "unit_storage_iv",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 6000
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 6000
             }
         ]
     },
-    "enriched_uranium_20_storage_2": {
-        "id": "enriched_uranium_20_storage_2",
+    "enriched_uranium_20%_storage_2": {
+        "id": "enriched_uranium_20%_storage_2",
         "name": "Enriched Uranium (20%) Storage",
         "machine": "unit_storage_iii",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 3000
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 3000
             }
         ]
     },
-    "enriched_uranium_20_storage_3": {
-        "id": "enriched_uranium_20_storage_3",
+    "enriched_uranium_20%_storage_3": {
+        "id": "enriched_uranium_20%_storage_3",
         "name": "Enriched Uranium (20%) Storage",
         "machine": "unit_storage_ii",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 500
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 500
             }
         ]
     },
-    "enriched_uranium_20_storage_4": {
-        "id": "enriched_uranium_20_storage_4",
+    "enriched_uranium_20%_storage_4": {
+        "id": "enriched_uranium_20%_storage_4",
         "name": "Enriched Uranium (20%) Storage",
         "machine": "unit_storage",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 200
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 200
             }
         ]
     },
-    "enriched_uranium_20_storage_5": {
-        "id": "enriched_uranium_20_storage_5",
+    "enriched_uranium_20%_storage_5": {
+        "id": "enriched_uranium_20%_storage_5",
         "name": "Enriched Uranium (20%) Storage",
         "machine": "radioactive_waste_storage",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 2400
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 2400
             }
         ]
     },
-    "enriched_uranium_4_storage": {
-        "id": "enriched_uranium_4_storage",
+    "enriched_uranium_4%_storage": {
+        "id": "enriched_uranium_4%_storage",
         "name": "Enriched Uranium (4%) Storage",
         "machine": "unit_storage_iv",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 6000
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 6000
             }
         ]
     },
-    "enriched_uranium_4_storage_2": {
-        "id": "enriched_uranium_4_storage_2",
+    "enriched_uranium_4%_storage_2": {
+        "id": "enriched_uranium_4%_storage_2",
         "name": "Enriched Uranium (4%) Storage",
         "machine": "unit_storage_iii",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 3000
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 3000
             }
         ]
     },
-    "enriched_uranium_4_storage_3": {
-        "id": "enriched_uranium_4_storage_3",
+    "enriched_uranium_4%_storage_3": {
+        "id": "enriched_uranium_4%_storage_3",
         "name": "Enriched Uranium (4%) Storage",
         "machine": "unit_storage_ii",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 500
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 500
             }
         ]
     },
-    "enriched_uranium_4_storage_4": {
-        "id": "enriched_uranium_4_storage_4",
+    "enriched_uranium_4%_storage_4": {
+        "id": "enriched_uranium_4%_storage_4",
         "name": "Enriched Uranium (4%) Storage",
         "machine": "unit_storage",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 200
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 200
             }
         ]
     },
-    "enriched_uranium_4_storage_5": {
-        "id": "enriched_uranium_4_storage_5",
+    "enriched_uranium_4%_storage_5": {
+        "id": "enriched_uranium_4%_storage_5",
         "name": "Enriched Uranium (4%) Storage",
         "machine": "radioactive_waste_storage",
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 2400
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 2400
             }
@@ -25602,101 +25602,101 @@
             }
         ]
     },
-    "reprocessed_uranium_1_storage": {
-        "id": "reprocessed_uranium_1_storage",
+    "reprocessed_uranium_1%_storage": {
+        "id": "reprocessed_uranium_1%_storage",
         "name": "Reprocessed Uranium (1%) Storage",
         "machine": "unit_storage_iv",
         "duration": 60,
         "inputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 6000
             }
         ],
         "outputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 6000
             }
         ]
     },
-    "reprocessed_uranium_1_storage_2": {
-        "id": "reprocessed_uranium_1_storage_2",
+    "reprocessed_uranium_1%_storage_2": {
+        "id": "reprocessed_uranium_1%_storage_2",
         "name": "Reprocessed Uranium (1%) Storage",
         "machine": "unit_storage_iii",
         "duration": 60,
         "inputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 3000
             }
         ],
         "outputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 3000
             }
         ]
     },
-    "reprocessed_uranium_1_storage_3": {
-        "id": "reprocessed_uranium_1_storage_3",
+    "reprocessed_uranium_1%_storage_3": {
+        "id": "reprocessed_uranium_1%_storage_3",
         "name": "Reprocessed Uranium (1%) Storage",
         "machine": "unit_storage_ii",
         "duration": 60,
         "inputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 500
             }
         ],
         "outputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 500
             }
         ]
     },
-    "reprocessed_uranium_1_storage_4": {
-        "id": "reprocessed_uranium_1_storage_4",
+    "reprocessed_uranium_1%_storage_4": {
+        "id": "reprocessed_uranium_1%_storage_4",
         "name": "Reprocessed Uranium (1%) Storage",
         "machine": "unit_storage",
         "duration": 60,
         "inputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 200
             }
         ],
         "outputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 200
             }
         ]
     },
-    "reprocessed_uranium_1_storage_5": {
-        "id": "reprocessed_uranium_1_storage_5",
+    "reprocessed_uranium_1%_storage_5": {
+        "id": "reprocessed_uranium_1%_storage_5",
         "name": "Reprocessed Uranium (1%) Storage",
         "machine": "radioactive_waste_storage",
         "duration": 60,
         "inputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 2400
             }
         ],
         "outputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 2400
             }
@@ -29001,7 +29001,7 @@
         ],
         "outputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 6
             },
@@ -31147,6 +31147,156 @@
             }
         ]
     },
+    "thermal_storage": {
+        "id": "thermal_storage",
+        "name": "Thermal Storage",
+        "machine": "thermal_storage",
+        "duration": 60,
+        "inputs": [
+            {
+                "id": "steam_low",
+                "name": "Steam (Low)",
+                "quantity": 602.3529109407167
+            }
+        ],
+        "outputs": [
+            {
+                "id": "heat",
+                "name": "Heat",
+                "quantity": 5421.17619846645
+            },
+            {
+                "id": "water",
+                "name": "Water",
+                "quantity": 602.3529109407167
+            }
+        ]
+    },
+    "thermal_storage_1": {
+        "id": "thermal_storage_1",
+        "name": "Thermal Storage 1",
+        "machine": "thermal_storage",
+        "duration": 60,
+        "inputs": [
+            {
+                "id": "water",
+                "name": "Water",
+                "quantity": 602.3529109407167
+            },
+            {
+                "id": "heat",
+                "name": "Heat",
+                "quantity": 6023.529109407167
+            }
+        ],
+        "outputs": [
+            {
+                "id": "steam_low",
+                "name": "Steam (Low)",
+                "quantity": 602.3529109407167
+            }
+        ]
+    },
+    "thermal_storage_2": {
+        "id": "thermal_storage_2",
+        "name": "Thermal Storage 2",
+        "machine": "thermal_storage",
+        "duration": 60,
+        "inputs": [
+            {
+                "id": "steam_high",
+                "name": "Steam (High)",
+                "quantity": 602.3529109407167
+            }
+        ],
+        "outputs": [
+            {
+                "id": "heat",
+                "name": "Heat",
+                "quantity": 10842.3523969329
+            },
+            {
+                "id": "water",
+                "name": "Water",
+                "quantity": 602.3529109407167
+            }
+        ]
+    },
+    "thermal_storage_3": {
+        "id": "thermal_storage_3",
+        "name": "Thermal Storage 3",
+        "machine": "thermal_storage",
+        "duration": 60,
+        "inputs": [
+            {
+                "id": "water",
+                "name": "Water",
+                "quantity": 602.3529109407167
+            },
+            {
+                "id": "heat",
+                "name": "Heat",
+                "quantity": 12047.058218814334
+            }
+        ],
+        "outputs": [
+            {
+                "id": "steam_high",
+                "name": "Steam (High)",
+                "quantity": 602.3529109407167
+            }
+        ]
+    },
+    "thermal_storage_4": {
+        "id": "thermal_storage_4",
+        "name": "Thermal Storage 4",
+        "machine": "thermal_storage",
+        "duration": 60,
+        "inputs": [
+            {
+                "id": "steam_super",
+                "name": "Steam (Super)",
+                "quantity": 602.3529109407167
+            }
+        ],
+        "outputs": [
+            {
+                "id": "heat",
+                "name": "Heat",
+                "quantity": 21684.7047938658
+            },
+            {
+                "id": "water",
+                "name": "Water",
+                "quantity": 602.3529109407167
+            }
+        ]
+    },
+    "thermal_storage_5": {
+        "id": "thermal_storage_5",
+        "name": "Thermal Storage 5",
+        "machine": "thermal_storage",
+        "duration": 60,
+        "inputs": [
+            {
+                "id": "water",
+                "name": "Water",
+                "quantity": 602.3529109407167
+            },
+            {
+                "id": "heat",
+                "name": "Heat",
+                "quantity": 24094.11643762867
+            }
+        ],
+        "outputs": [
+            {
+                "id": "steam_super",
+                "name": "Steam (Super)",
+                "quantity": 602.3529109407167
+            }
+        ]
+    },
     "titanium_alloy_mixing": {
         "id": "titanium_alloy_mixing",
         "name": "Titanium Alloy Mixing",
@@ -32748,14 +32898,14 @@
                 "quantity": 3
             },
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 3
             }
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 3
             }
@@ -32780,7 +32930,7 @@
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 0.5
             },
@@ -32798,7 +32948,7 @@
         "duration": 60,
         "inputs": [
             {
-                "id": "reprocessed_uranium_1",
+                "id": "reprocessed_uranium_1%",
                 "name": "Reprocessed Uranium (1%)",
                 "quantity": 2
             },
@@ -32810,7 +32960,7 @@
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 0.5
             },
@@ -32828,7 +32978,7 @@
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 2.5
             },
@@ -32840,7 +32990,7 @@
         ],
         "outputs": [
             {
-                "id": "enriched_uranium_20",
+                "id": "enriched_uranium_20%",
                 "name": "Enriched Uranium (20%)",
                 "quantity": 0.5
             },
@@ -33148,7 +33298,7 @@
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 2
             },
@@ -33173,7 +33323,7 @@
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 4
             },
@@ -33198,7 +33348,7 @@
         "duration": 60,
         "inputs": [
             {
-                "id": "enriched_uranium_4",
+                "id": "enriched_uranium_4%",
                 "name": "Enriched Uranium (4%)",
                 "quantity": 8
             },
