@@ -2,7 +2,7 @@ const fs = require("fs")
 
 const rawData = require("./captain-of-data/data/machines_and_buildings.json")
 const rawDataMines = require("./src/data/mines.json")
-const rawDataStorages = require("./src/data/storages.json")
+const rawDataStorages = require("./captain-of-data/data/storages.json")
 
 function categoryNameToId(name) {
     return typeof name === 'string' && name.length ? name.replaceAll('&', 'and').toLowerCase().replaceAll(' ', '_').replaceAll('(', '').replaceAll(')', '') : null
