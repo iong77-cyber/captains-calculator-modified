@@ -5,7 +5,18 @@
       "Bash(npm install:*)",
       "Bash(npm run:*)",
       "Bash(nvm use:*)",
-      "Bash(timeout 15 npm start)"
+      "Bash(timeout 15 npm start)",
+      "Bash(yarn --version)",
+      "Bash(rm -rf node_modules yarn.lock package-lock.json)",
+      "Bash(yarn install:*)",
+      "Bash(yarn build:*)",
+      "Bash(node_modules/.bin/tsc --version)",
+      "Bash(node -e \"console.log\\(require\\('react-scripts/node_modules/typescript/package.json'\\).version\\)\")",
+      "Bash(npx tsc:*)",
+      "Bash(CI=true yarn build)",
+      "Bash(node -e \"const pkg = require\\('./node_modules/overmind/package.json'\\); console.log\\(pkg.version\\)\")",
+      "Bash(TSC_COMPILE_ON_ERROR=true yarn build)",
+      "Bash(ls \"E:/_/coi/captains-calculator/.env\"*)"
     ]
   }
 }
