@@ -3138,7 +3138,7 @@
     "enriched_uranium_20%": {
         "id": "enriched_uranium_20%",
         "name": "Enriched Uranium (20%)",
-        "icon": "EnrichedUranium20%.png",
+        "icon": "EnrichedUranium20.png",
         "recipes": {
             "input": [
                 "compact_reactor_assembly",
@@ -3184,7 +3184,7 @@
     "enriched_uranium_4%": {
         "id": "enriched_uranium_4%",
         "name": "Enriched Uranium (4%)",
-        "icon": "EnrichedUranium4%.png",
+        "icon": "EnrichedUranium4.png",
         "recipes": {
             "input": [
                 "enriched_uranium_4%_storage",
@@ -7696,7 +7696,7 @@
     "reprocessed_uranium_1%": {
         "id": "reprocessed_uranium_1%",
         "name": "Reprocessed Uranium (1%)",
-        "icon": "ReprocessedUranium1%.png",
+        "icon": "ReprocessedUranium1.png",
         "recipes": {
             "input": [
                 "reprocessed_uranium_1%_storage",

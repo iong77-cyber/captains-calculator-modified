@@ -161,27 +161,14 @@ const showReleaseNotes = () => showNotification({
     message:
         <Box> 
             <Box>
-                <Text weight={600}>v0.0.3</Text>
+                <Text weight={600}>v0.0.4 (4/1/2026)</Text>
                 <List size="sm">
                     <List.Item>
-                        Adds Ability To Delete Nodes
-                        <List withPadding listStyleType="disc" size="xs">
+                        Updated for Latest Game Version (v0.8.2c)
+                        {/* <List withPadding listStyleType="disc" size="xs">
                             <List.Item>Feature is experimental, please report any bugs or crashes</List.Item>
-                        </List>
+                        </List> */}
                     </List.Item> 
-                </List>
-            </Box>
-            <Box>
-                <Text weight={600}>v0.0.2</Text>
-                <List size="sm">
-                    <List.Item>Adds Storages as Import Sources</List.Item>
-                    <List.Item>
-                        Dark Mode Option Added
-                        <List withPadding listStyleType="disc" size="xs">
-                            <List.Item>Might conflict with browser dark mode settings</List.Item>
-                            <List.Item>Please report if this happens to you</List.Item>
-                        </List>
-                    </List.Item>
                 </List>
             </Box>
         </Box>
