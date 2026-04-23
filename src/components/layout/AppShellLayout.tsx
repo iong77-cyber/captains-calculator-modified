@@ -269,6 +269,31 @@ const AppShellLayout: React.FC = () => {
                                             <img src="/img/logo.png" alt="Captain's Calculator" title="Captain's Calculator" />
                                         </a>
                                         <Text color="white" size="sm">v{appVersion}</Text>
+                                        {/* ВСТАВЛЯЕМ СЮДА */}
+            <Button variant="light" color="blue" onClick={() => window.dispatchEvent(new CustomEvent('flow-export'))}>
+                Экспорт (Save)
+            </Button>
+
+            <Button variant="light" color="green" component="label">
+                Импорт (Load)
+                <input 
+                    type="file" 
+                    hidden 
+                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => {
+                        const file = e.target.files?.[0];
+                        if (file) {
+                            const reader = new FileReader();
+                            reader.onload = (event: ProgressEvent<FileReader>) => {
+                                const result = event.target?.result;
+                                if (typeof result === 'string') {
+                                    window.dispatchEvent(new CustomEvent('flow-import', { detail: result }));
+                                }
+                            };
+                            reader.readAsText(file);
+                        }
+                    }} 
+                />
+            </Button>
                                     </Group>
 
                                 </Group>

@@ -74,7 +74,7 @@ export const Editor: React.FC<EditorProps> = ({ nodesData, edgesData }) => {
     // const [graph, setGraph] = React.useState<Array<Node>>()
 
     const [loading, setLoading] = React.useState(true)
-
+    const [rfInstance, setRfInstance] = React.useState<ReactFlowInstance<RecipeNodeData> | null>(null);
     const [nodes, setNodes, onNodesChange] = useNodesState(nodesData);
     const [edges, setEdges, onEdgesChange] = useEdgesState(edgesData);
 
@@ -132,6 +132,8 @@ export const Editor: React.FC<EditorProps> = ({ nodesData, edgesData }) => {
     }
 
     const onInit = async (reactFlowInstance: ReactFlowInstance<RecipeNodeData>) => {
+        setRfInstance(reactFlowInstance); // Сохраняем инстанс для экспорта
+        
         reactFlowInstance.setCenter(0, 0)
         let data = getLayoutedElements(
             reactFlowInstance.getNodes(),
@@ -140,10 +142,50 @@ export const Editor: React.FC<EditorProps> = ({ nodesData, edgesData }) => {
         reactFlowInstance.setNodes(data.nodes)
         reactFlowInstance.setEdges(data.edges)
         reactFlowInstance.fitView({ padding: 0.2, includeHiddenNodes: false, duration: 100 });
-        //await new Promise(resolve=>setTimeout(resolve,1000))
         setLoading(false)
-
     };
+
+    // Слушаем сигналы от кнопок из AppShellLayout
+    React.useEffect(() => {
+        const handleExport = () => {
+            if (rfInstance) {
+                const data = rfInstance.toObject();
+                const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'captains-calc-save.json';
+                link.click();
+            }
+        };
+
+        // Указываем тип Event и принудительно приводим к CustomEvent
+        const handleImport = (e: Event) => {
+            try {
+                const customEvent = e as CustomEvent<string>;
+                if (!customEvent.detail) return;
+                
+                const data = JSON.parse(customEvent.detail);
+                if (data.nodes && data.edges) {
+                    setNodes(data.nodes);
+                    setEdges(data.edges);
+                    if (rfInstance && data.viewport) {
+                        rfInstance.setViewport(data.viewport);
+                    }
+                }
+            } catch (err) {
+                console.error("Ошибка при загрузке файла:", err);
+            }
+        };
+
+        window.addEventListener('flow-export', handleExport);
+        window.addEventListener('flow-import', handleImport);
+        
+        return () => {
+            window.removeEventListener('flow-export', handleExport);
+            window.removeEventListener('flow-import', handleImport);
+        };
+    }, [rfInstance, setNodes, setEdges]);
 
     // const onNodeClick = (e: any, node: Node<RecipeNodeData>) => {
     //     selectNode(node.data.id)
