@@ -5,3 +5,5 @@
 Find it hard to plan you factories in the game 'Captain of Industry'?
 
 This is your solution. Captains Calculator lets you plan out parts of your factory and understand the resources needed, inputs outputs and lets you better understand and plan things out.
+
+Captains Calculator with added Save/Load (Import/Export) functionality.
